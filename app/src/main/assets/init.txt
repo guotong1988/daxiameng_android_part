@@ -1,0 +1,35 @@
+--需要自定义字体的玩家，请将字体文件“font.ttf”放入当前文本所在目录下即可
+
+--虚拟按键的比例，值越小，按键越大
+CONFIG.KeyScale=1300
+
+--字体大小
+CONFIG.zitidaxiao = 32
+
+--人物缩放的比例，值越大，人物越大
+CONFIG.Zoom=300
+
+CONFIG.PlayName = "超级飞侠" --主角姓名
+
+CONFIG.PlayName2 = "微笑的少女" --女主角姓名
+
+--以下为各个虚拟按键的设置
+CONFIG.D1X=-1
+CONFIG.D1Y=-1
+CONFIG.D2X=-1
+CONFIG.D2Y=-1
+CONFIG.D3X=-1
+CONFIG.D3Y=-1
+CONFIG.D4X=-1
+CONFIG.D4Y=-1
+CONFIG.C1X=-1
+CONFIG.C1Y=-1
+CONFIG.C2X=-1
+CONFIG.C2Y=-1
+CONFIG.AX=-1
+CONFIG.AY=-1
+CONFIG.BX=-1
+CONFIG.BY=-1
+
+CONFIG.XScale = math.modf(CONFIG.XScale*CONFIG.Zoom/300)
+CONFIG.YScale = math.modf(CONFIG.YScale*CONFIG.Zoom/300)
